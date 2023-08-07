@@ -3,7 +3,7 @@ This document contains everything you need to work with the wallpaper framework.
 
  In the setup_wallpaper function you will find a few functions that can take various parameters this file lists the options for each.
 
-## pWallpaper.output_mode(....);
+## pWallpaper.output_mode(GRID_WALLPAPER);
 the .... can be replaced with:
 
    1. DEVELOP_GLYPH
@@ -19,7 +19,7 @@ the .... can be replaced with:
       and offset by the grid_settings offset.
 
 
-## pWallpaper.resolution(....);
+## pWallpaper.resolution(NINE_LANDSCAPE);
 the .... can be replaced with:
 
    1. FIT_TO_SCREEN
@@ -46,7 +46,7 @@ the .... can be replaced with:
       This will be the one to use for your FINAL chosen hand-in.
 
 
-## pWallpaper.show_guide(....);
+## pWallpaper.show_guide(false);
 the .... can be replaced with either:
 
    1. true
